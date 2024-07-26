@@ -1,0 +1,47 @@
+  body {
+    font-family: Firefox 1 ;
+    margin: 0;
+    padding: 5;
+    color: #333;
+    text-align: center;
+    background-color: #ffffff;
+}
+#box{
+  max-width: 700px;
+  max-height: 400px;
+  margin: 30px auto 0px;
+  padding: 50px;
+  /*background-color: #ACC8E5;*/
+  color: #000000;
+}
+h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    padding-bottom: 30px;
+  }
+.button{
+  background-image: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+  color: black; /* Black text */
+  border: 2px solid #000000; /* Green border */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Inline-block display */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+  flex-direction: column; /* Stacks the buttons vertically */
+  gap: 10px; /* Adds space between the buttons */
+
+}
+#iconSize{
+  width: 30px;
+  height: 30px;
+}
+#instruction{
+  text-align: left;
+  padding-left: 100px;
+}
